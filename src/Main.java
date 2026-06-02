@@ -28,6 +28,7 @@ public class Main {
         if (me.calculateHand() == dealer.calculateHand()) {
             System.out.println();
             System.out.println("You Tied!!!!");
+            System.exit(0);
         }
         else if (me.calculateHand() > dealer.calculateHand()) {
             System.out.println();
