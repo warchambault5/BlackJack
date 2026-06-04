@@ -7,6 +7,8 @@ public class Main {
     }
 
     public static void main(String[] args) throws InterruptedException {
+        System.out.println("********************************************** Blackjack ****************************************************");
+        System.out.println();
         Deck deck = new Deck();
         deck.shuffle();
         Player me = new Player(deck);
