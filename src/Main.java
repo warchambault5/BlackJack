@@ -32,7 +32,7 @@ public class Main {
         }
         else if (me.calculateHand() > dealer.calculateHand()) {
             System.out.println();
-            System.out.println("You win!!!");
+            System.out.println("You win $" + (int) (Math.random() * 10000) + "!!!");
             System.exit(0);
         }
         System.out.println();
